@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>30A619F8-F0B9-4774-97CF-17F527EB33AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AdvancedArchiveViewer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8DB2DB8E5D56AD09DDA041045706C3497E5484CB</key>
+		<string>https://github.com/andrewsleap/TylersStuff.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AdvancedArchiveViewer/AdvancedArchiveViewer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8DB2DB8E5D56AD09DDA041045706C3497E5484CB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andrewsleap/TylersStuff.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8DB2DB8E5D56AD09DDA041045706C3497E5484CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DB2DB8E5D56AD09DDA041045706C3497E5484CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TylersStuff</string>
+		</dict>
+	</array>
+</dict>
+</plist>

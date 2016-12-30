@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="mbI-1k-DwS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="7Ru-Ab-azS">
+            <objects>
+                <navigationController id="mbI-1k-DwS" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="iNY-QG-bk1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AFr-C6-STE" kind="relationship" relationship="rootViewController" id="doO-w5-cQw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJX-nb-IBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-843" y="1032"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RFO-CP-ygK">
+            <objects>
+                <viewController id="AFr-C6-STE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f8D-pK-8sa"/>
+                        <viewControllerLayoutGuide type="bottom" id="axX-Hz-ck1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cpJ-fh-ZkI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="683-UM-JIe">
+                                <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                                <animations/>
+                                <items/>
+                            </tabBar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="axX-Hz-ck1" firstAttribute="top" secondItem="683-UM-JIe" secondAttribute="bottom" id="D5A-Jg-Lxp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="683-UM-JIe" secondAttribute="trailing" constant="-20" id="I4V-2C-1Rk"/>
+                            <constraint firstItem="683-UM-JIe" firstAttribute="leading" secondItem="cpJ-fh-ZkI" secondAttribute="leadingMargin" constant="-20" id="oaE-KJ-Ma8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tOU-6V-E6i"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZl-ce-lsh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-181" y="1032"/>
+        </scene>
+    </scenes>
+</document>

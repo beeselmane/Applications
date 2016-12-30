@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BA2B2B61A510FD90033E72B /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B2B51A510FD90033E72B /* SMAppDelegate.m */; };
+		8BA2B2B81A510FD90033E72B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B2B71A510FD90033E72B /* main.m */; };
+		8BA2B2BA1A510FD90033E72B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA2B2B91A510FD90033E72B /* Images.xcassets */; };
+		8BA2B2BD1A510FD90033E72B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA2B2BB1A510FD90033E72B /* MainMenu.xib */; };
+		8BA2B2C91A510FD90033E72B /* Super_Mario_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B2C81A510FD90033E72B /* Super_Mario_WorldTests.m */; };
+		8BA2B5AA1A511A300033E72B /* Engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5A91A511A300033E72B /* Engine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA2B5B01A511A300033E72B /* Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA2B5A51A511A300033E72B /* Engine.framework */; };
+		8BA2B5B91A511A300033E72B /* EngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5B81A511A300033E72B /* EngineTests.m */; };
+		8BA2B5BC1A511A300033E72B /* Engine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA2B5A51A511A300033E72B /* Engine.framework */; };
+		8BA2B5BD1A511A300033E72B /* Engine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA2B5A51A511A300033E72B /* Engine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8BA2B5C61A511A470033E72B /* Engine.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5C51A511A470033E72B /* Engine.c */; };
+		8BA2B5C91A511AE00033E72B /* SMEBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5C81A511ACE0033E72B /* SMEBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA2B5CC1A511C1E0033E72B /* SMWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5CB1A511C1E0033E72B /* SMWindow.m */; };
+		8BA2B5CF1A511C330033E72B /* SMOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5CE1A511C330033E72B /* SMOpenGLView.m */; };
+		8BA2B5D21A511CFF0033E72B /* SMESystemCallbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5D01A511CFF0033E72B /* SMESystemCallbacks.c */; };
+		8BA2B5D31A511CFF0033E72B /* SMESystemCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5D11A511CFF0033E72B /* SMESystemCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA2B5D61A511D5E0033E72B /* SMEFileManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5D41A511D5E0033E72B /* SMEFileManager.c */; };
+		8BA2B5D71A511D5E0033E72B /* SMEFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5D51A511D5E0033E72B /* SMEFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA2B5DA1A511F410033E72B /* SMEInputMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5D81A511F410033E72B /* SMEInputMap.c */; };
+		8BA2B5DB1A511F410033E72B /* SMEInputMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5D91A511F410033E72B /* SMEInputMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA2B5DE1A5126060033E72B /* SMEConfig.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5DC1A5126060033E72B /* SMEConfig.c */; };
+		8BA2B5DF1A5126060033E72B /* SMEConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5DD1A5126060033E72B /* SMEConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA2B5E11A5140170033E72B /* config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5E01A5140170033E72B /* config.m */; };
+		8BA2B5E31A514BC30033E72B /* initgl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5E21A514BC30033E72B /* initgl.m */; };
+		8BA2B5E61A514C640033E72B /* input.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5E51A514C640033E72B /* input.m */; };
+		8BA2B5E81A514D8A0033E72B /* runloop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5E71A514D8A0033E72B /* runloop.m */; };
+		8BA2B5EB1A515C940033E72B /* SMPrefWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5EA1A515C940033E72B /* SMPrefWindow.m */; };
+		8BA2B5ED1A51ED610033E72B /* texture.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5EC1A51ED610033E72B /* texture.m */; };
+		8BA2B5F01A51F3FC0033E72B /* SMEGameController.c in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B5EE1A51F3FC0033E72B /* SMEGameController.c */; };
+		8BA2B5F11A51F3FC0033E72B /* SMEGameController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5EF1A51F3FC0033E72B /* SMEGameController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA2B5F31A5222E40033E72B /* resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2B5F21A5222E40033E72B /* resources.h */; };
+		8BA2B5F81A5225B20033E72B /* Backgrounds in Resources */ = {isa = PBXBuildFile; fileRef = 8BA2B5F71A5225B20033E72B /* Backgrounds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BA2B2C31A510FD90033E72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA2B2A71A510FD90033E72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA2B2AE1A510FD90033E72B;
+			remoteInfo = "Super Mario World";
+		};
+		8BA2B5B11A511A300033E72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA2B2A71A510FD90033E72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA2B5A41A511A300033E72B;
+			remoteInfo = Engine;
+		};
+		8BA2B5B31A511A300033E72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA2B2A71A510FD90033E72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA2B2AE1A510FD90033E72B;
+			remoteInfo = "Super Mario World";
+		};
+		8BA2B5BA1A511A300033E72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BA2B2A71A510FD90033E72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA2B5A41A511A300033E72B;
+			remoteInfo = Engine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BA2B5C11A511A300033E72B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BA2B5BD1A511A300033E72B /* Engine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BA2B2AF1A510FD90033E72B /* Super Mario World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Mario World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA2B2B31A510FD90033E72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA2B2B41A510FD90033E72B /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		8BA2B2B51A510FD90033E72B /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		8BA2B2B71A510FD90033E72B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BA2B2B91A510FD90033E72B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BA2B2BC1A510FD90033E72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8BA2B2C21A510FD90033E72B /* Super Mario WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Super Mario WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA2B2C71A510FD90033E72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA2B2C81A510FD90033E72B /* Super_Mario_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Super_Mario_WorldTests.m; sourceTree = "<group>"; };
+		8BA2B5A51A511A300033E72B /* Engine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Engine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA2B5A81A511A300033E72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA2B5A91A511A300033E72B /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		8BA2B5AF1A511A300033E72B /* EngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA2B5B71A511A300033E72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA2B5B81A511A300033E72B /* EngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngineTests.m; sourceTree = "<group>"; };
+		8BA2B5C51A511A470033E72B /* Engine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Engine.c; sourceTree = "<group>"; };
+		8BA2B5C71A511A550033E72B /* EngineInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngineInternal.h; sourceTree = "<group>"; };
+		8BA2B5C81A511ACE0033E72B /* SMEBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMEBase.h; sourceTree = "<group>"; };
+		8BA2B5CA1A511C1E0033E72B /* SMWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWindow.h; sourceTree = "<group>"; };
+		8BA2B5CB1A511C1E0033E72B /* SMWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMWindow.m; sourceTree = "<group>"; };
+		8BA2B5CD1A511C330033E72B /* SMOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMOpenGLView.h; sourceTree = "<group>"; };
+		8BA2B5CE1A511C330033E72B /* SMOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMOpenGLView.m; sourceTree = "<group>"; };
+		8BA2B5D01A511CFF0033E72B /* SMESystemCallbacks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMESystemCallbacks.c; sourceTree = "<group>"; };
+		8BA2B5D11A511CFF0033E72B /* SMESystemCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMESystemCallbacks.h; sourceTree = "<group>"; };
+		8BA2B5D41A511D5E0033E72B /* SMEFileManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMEFileManager.c; sourceTree = "<group>"; };
+		8BA2B5D51A511D5E0033E72B /* SMEFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEFileManager.h; sourceTree = "<group>"; };
+		8BA2B5D81A511F410033E72B /* SMEInputMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMEInputMap.c; sourceTree = "<group>"; };
+		8BA2B5D91A511F410033E72B /* SMEInputMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEInputMap.h; sourceTree = "<group>"; };
+		8BA2B5DC1A5126060033E72B /* SMEConfig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMEConfig.c; sourceTree = "<group>"; };
+		8BA2B5DD1A5126060033E72B /* SMEConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEConfig.h; sourceTree = "<group>"; };
+		8BA2B5E01A5140170033E72B /* config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = config.m; sourceTree = "<group>"; };
+		8BA2B5E21A514BC30033E72B /* initgl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = initgl.m; sourceTree = "<group>"; };
+		8BA2B5E51A514C640033E72B /* input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = input.m; sourceTree = "<group>"; };
+		8BA2B5E71A514D8A0033E72B /* runloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runloop.m; sourceTree = "<group>"; };
+		8BA2B5E91A515C940033E72B /* SMPrefWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPrefWindow.h; sourceTree = "<group>"; };
+		8BA2B5EA1A515C940033E72B /* SMPrefWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPrefWindow.m; sourceTree = "<group>"; };
+		8BA2B5EC1A51ED610033E72B /* texture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = texture.m; sourceTree = "<group>"; };
+		8BA2B5EE1A51F3FC0033E72B /* SMEGameController.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMEGameController.c; sourceTree = "<group>"; };
+		8BA2B5EF1A51F3FC0033E72B /* SMEGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEGameController.h; sourceTree = "<group>"; };
+		8BA2B5F21A5222E40033E72B /* resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resources.h; sourceTree = "<group>"; };
+		8BA2B5F71A5225B20033E72B /* Backgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Backgrounds; path = Resources/Backgrounds; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BA2B2AC1A510FD90033E72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B5BC1A511A300033E72B /* Engine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B2BF1A510FD90033E72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B5A11A511A300033E72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B5AC1A511A300033E72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B5B01A511A300033E72B /* Engine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BA2B2A61A510FD90033E72B = {
+			isa = PBXGroup;
+			children = (
+				8BA2B2B11A510FD90033E72B /* Super Mario World */,
+				8BA2B5A61A511A300033E72B /* Engine */,
+				8BA2B2C51A510FD90033E72B /* Super Mario WorldTests */,
+				8BA2B5B51A511A300033E72B /* EngineTests */,
+				8BA2B2B01A510FD90033E72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA2B2B01A510FD90033E72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B2AF1A510FD90033E72B /* Super Mario World.app */,
+				8BA2B2C21A510FD90033E72B /* Super Mario WorldTests.xctest */,
+				8BA2B5A51A511A300033E72B /* Engine.framework */,
+				8BA2B5AF1A511A300033E72B /* EngineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA2B2B11A510FD90033E72B /* Super Mario World */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B2B41A510FD90033E72B /* SMAppDelegate.h */,
+				8BA2B2B51A510FD90033E72B /* SMAppDelegate.m */,
+				8BA2B5CD1A511C330033E72B /* SMOpenGLView.h */,
+				8BA2B5CE1A511C330033E72B /* SMOpenGLView.m */,
+				8BA2B5E91A515C940033E72B /* SMPrefWindow.h */,
+				8BA2B5EA1A515C940033E72B /* SMPrefWindow.m */,
+				8BA2B5CA1A511C1E0033E72B /* SMWindow.h */,
+				8BA2B5CB1A511C1E0033E72B /* SMWindow.m */,
+				8BA2B2B71A510FD90033E72B /* main.m */,
+				8BA2B5E41A514BCB0033E72B /* suppliers */,
+				8BA2B2B21A510FD90033E72B /* Supporting Files */,
+			);
+			path = "Super Mario World";
+			sourceTree = "<group>";
+		};
+		8BA2B2B21A510FD90033E72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B5F61A5225AA0033E72B /* Resources */,
+				8BA2B2B31A510FD90033E72B /* Info.plist */,
+				8BA2B2B91A510FD90033E72B /* Images.xcassets */,
+				8BA2B2BB1A510FD90033E72B /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BA2B2C51A510FD90033E72B /* Super Mario WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B2C81A510FD90033E72B /* Super_Mario_WorldTests.m */,
+				8BA2B2C61A510FD90033E72B /* Supporting Files */,
+			);
+			path = "Super Mario WorldTests";
+			sourceTree = "<group>";
+		};
+		8BA2B2C61A510FD90033E72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B2C71A510FD90033E72B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BA2B5A61A511A300033E72B /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B5D01A511CFF0033E72B /* SMESystemCallbacks.c */,
+				8BA2B5D11A511CFF0033E72B /* SMESystemCallbacks.h */,
+				8BA2B5EE1A51F3FC0033E72B /* SMEGameController.c */,
+				8BA2B5EF1A51F3FC0033E72B /* SMEGameController.h */,
+				8BA2B5D41A511D5E0033E72B /* SMEFileManager.c */,
+				8BA2B5D51A511D5E0033E72B /* SMEFileManager.h */,
+				8BA2B5D81A511F410033E72B /* SMEInputMap.c */,
+				8BA2B5D91A511F410033E72B /* SMEInputMap.h */,
+				8BA2B5DC1A5126060033E72B /* SMEConfig.c */,
+				8BA2B5DD1A5126060033E72B /* SMEConfig.h */,
+				8BA2B5A71A511A300033E72B /* Supporting Files */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		8BA2B5A71A511A300033E72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B5C71A511A550033E72B /* EngineInternal.h */,
+				8BA2B5F21A5222E40033E72B /* resources.h */,
+				8BA2B5C81A511ACE0033E72B /* SMEBase.h */,
+				8BA2B5A91A511A300033E72B /* Engine.h */,
+				8BA2B5C51A511A470033E72B /* Engine.c */,
+				8BA2B5A81A511A300033E72B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BA2B5B51A511A300033E72B /* EngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B5B81A511A300033E72B /* EngineTests.m */,
+				8BA2B5B61A511A300033E72B /* Supporting Files */,
+			);
+			path = EngineTests;
+			sourceTree = "<group>";
+		};
+		8BA2B5B61A511A300033E72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B5B71A511A300033E72B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BA2B5E41A514BCB0033E72B /* suppliers */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B5E01A5140170033E72B /* config.m */,
+				8BA2B5E21A514BC30033E72B /* initgl.m */,
+				8BA2B5E51A514C640033E72B /* input.m */,
+				8BA2B5EC1A51ED610033E72B /* texture.m */,
+				8BA2B5E71A514D8A0033E72B /* runloop.m */,
+			);
+			name = suppliers;
+			sourceTree = "<group>";
+		};
+		8BA2B5F61A5225AA0033E72B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BA2B5F71A5225B20033E72B /* Backgrounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BA2B5A21A511A300033E72B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B5AA1A511A300033E72B /* Engine.h in Headers */,
+				8BA2B5D31A511CFF0033E72B /* SMESystemCallbacks.h in Headers */,
+				8BA2B5D71A511D5E0033E72B /* SMEFileManager.h in Headers */,
+				8BA2B5DB1A511F410033E72B /* SMEInputMap.h in Headers */,
+				8BA2B5F31A5222E40033E72B /* resources.h in Headers */,
+				8BA2B5F11A51F3FC0033E72B /* SMEGameController.h in Headers */,
+				8BA2B5DF1A5126060033E72B /* SMEConfig.h in Headers */,
+				8BA2B5C91A511AE00033E72B /* SMEBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BA2B2AE1A510FD90033E72B /* Super Mario World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA2B2CC1A510FD90033E72B /* Build configuration list for PBXNativeTarget "Super Mario World" */;
+			buildPhases = (
+				8BA2B2AB1A510FD90033E72B /* Sources */,
+				8BA2B2AC1A510FD90033E72B /* Frameworks */,
+				8BA2B2AD1A510FD90033E72B /* Resources */,
+				8BA2B5C11A511A300033E72B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA2B5BB1A511A300033E72B /* PBXTargetDependency */,
+			);
+			name = "Super Mario World";
+			productName = "Super Mario World";
+			productReference = 8BA2B2AF1A510FD90033E72B /* Super Mario World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BA2B2C11A510FD90033E72B /* Super Mario WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA2B2CF1A510FD90033E72B /* Build configuration list for PBXNativeTarget "Super Mario WorldTests" */;
+			buildPhases = (
+				8BA2B2BE1A510FD90033E72B /* Sources */,
+				8BA2B2BF1A510FD90033E72B /* Frameworks */,
+				8BA2B2C01A510FD90033E72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA2B2C41A510FD90033E72B /* PBXTargetDependency */,
+			);
+			name = "Super Mario WorldTests";
+			productName = "Super Mario WorldTests";
+			productReference = 8BA2B2C21A510FD90033E72B /* Super Mario WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BA2B5A41A511A300033E72B /* Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA2B5BE1A511A300033E72B /* Build configuration list for PBXNativeTarget "Engine" */;
+			buildPhases = (
+				8BA2B5A01A511A300033E72B /* Sources */,
+				8BA2B5A11A511A300033E72B /* Frameworks */,
+				8BA2B5A21A511A300033E72B /* Headers */,
+				8BA2B5A31A511A300033E72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Engine;
+			productName = Engine;
+			productReference = 8BA2B5A51A511A300033E72B /* Engine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BA2B5AE1A511A300033E72B /* EngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA2B5C21A511A300033E72B /* Build configuration list for PBXNativeTarget "EngineTests" */;
+			buildPhases = (
+				8BA2B5AB1A511A300033E72B /* Sources */,
+				8BA2B5AC1A511A300033E72B /* Frameworks */,
+				8BA2B5AD1A511A300033E72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BA2B5B21A511A300033E72B /* PBXTargetDependency */,
+				8BA2B5B41A511A300033E72B /* PBXTargetDependency */,
+			);
+			name = EngineTests;
+			productName = EngineTests;
+			productReference = 8BA2B5AF1A511A300033E72B /* EngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BA2B2A71A510FD90033E72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Corona Industries LTD";
+				TargetAttributes = {
+					8BA2B2AE1A510FD90033E72B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8BA2B2C11A510FD90033E72B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8BA2B2AE1A510FD90033E72B;
+					};
+					8BA2B5A41A511A300033E72B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8BA2B5AE1A511A300033E72B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8BA2B2AE1A510FD90033E72B;
+					};
+				};
+			};
+			buildConfigurationList = 8BA2B2AA1A510FD90033E72B /* Build configuration list for PBXProject "Super Mario World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BA2B2A61A510FD90033E72B;
+			productRefGroup = 8BA2B2B01A510FD90033E72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BA2B2AE1A510FD90033E72B /* Super Mario World */,
+				8BA2B2C11A510FD90033E72B /* Super Mario WorldTests */,
+				8BA2B5A41A511A300033E72B /* Engine */,
+				8BA2B5AE1A511A300033E72B /* EngineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BA2B2AD1A510FD90033E72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B5F81A5225B20033E72B /* Backgrounds in Resources */,
+				8BA2B2BA1A510FD90033E72B /* Images.xcassets in Resources */,
+				8BA2B2BD1A510FD90033E72B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B2C01A510FD90033E72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B5A31A511A300033E72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B5AD1A511A300033E72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BA2B2AB1A510FD90033E72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B2B81A510FD90033E72B /* main.m in Sources */,
+				8BA2B5ED1A51ED610033E72B /* texture.m in Sources */,
+				8BA2B5CF1A511C330033E72B /* SMOpenGLView.m in Sources */,
+				8BA2B5E31A514BC30033E72B /* initgl.m in Sources */,
+				8BA2B5E81A514D8A0033E72B /* runloop.m in Sources */,
+				8BA2B5E61A514C640033E72B /* input.m in Sources */,
+				8BA2B5CC1A511C1E0033E72B /* SMWindow.m in Sources */,
+				8BA2B2B61A510FD90033E72B /* SMAppDelegate.m in Sources */,
+				8BA2B5E11A5140170033E72B /* config.m in Sources */,
+				8BA2B5EB1A515C940033E72B /* SMPrefWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B2BE1A510FD90033E72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B2C91A510FD90033E72B /* Super_Mario_WorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B5A01A511A300033E72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B5D61A511D5E0033E72B /* SMEFileManager.c in Sources */,
+				8BA2B5DA1A511F410033E72B /* SMEInputMap.c in Sources */,
+				8BA2B5C61A511A470033E72B /* Engine.c in Sources */,
+				8BA2B5F01A51F3FC0033E72B /* SMEGameController.c in Sources */,
+				8BA2B5D21A511CFF0033E72B /* SMESystemCallbacks.c in Sources */,
+				8BA2B5DE1A5126060033E72B /* SMEConfig.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA2B5AB1A511A300033E72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA2B5B91A511A300033E72B /* EngineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BA2B2C41A510FD90033E72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA2B2AE1A510FD90033E72B /* Super Mario World */;
+			targetProxy = 8BA2B2C31A510FD90033E72B /* PBXContainerItemProxy */;
+		};
+		8BA2B5B21A511A300033E72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA2B5A41A511A300033E72B /* Engine */;
+			targetProxy = 8BA2B5B11A511A300033E72B /* PBXContainerItemProxy */;
+		};
+		8BA2B5B41A511A300033E72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA2B2AE1A510FD90033E72B /* Super Mario World */;
+			targetProxy = 8BA2B5B31A511A300033E72B /* PBXContainerItemProxy */;
+		};
+		8BA2B5BB1A511A300033E72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BA2B5A41A511A300033E72B /* Engine */;
+			targetProxy = 8BA2B5BA1A511A300033E72B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BA2B2BB1A510FD90033E72B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BA2B2BC1A510FD90033E72B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BA2B2CA1A510FD90033E72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BA2B2CB1A510FD90033E72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BA2B2CD1A510FD90033E72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Super Mario World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BA2B2CE1A510FD90033E72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Super Mario World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BA2B2D01A510FD90033E72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Super Mario WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Mario World.app/Contents/MacOS/Super Mario World";
+			};
+			name = Debug;
+		};
+		8BA2B2D11A510FD90033E72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Super Mario WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Mario World.app/Contents/MacOS/Super Mario World";
+			};
+			name = Release;
+		};
+		8BA2B5BF1A511A300033E72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Engine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BA2B5C01A511A300033E72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Engine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BA2B5C31A511A300033E72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Mario World.app/Contents/MacOS/Super Mario World";
+			};
+			name = Debug;
+		};
+		8BA2B5C41A511A300033E72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Super Mario World.app/Contents/MacOS/Super Mario World";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BA2B2AA1A510FD90033E72B /* Build configuration list for PBXProject "Super Mario World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA2B2CA1A510FD90033E72B /* Debug */,
+				8BA2B2CB1A510FD90033E72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA2B2CC1A510FD90033E72B /* Build configuration list for PBXNativeTarget "Super Mario World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA2B2CD1A510FD90033E72B /* Debug */,
+				8BA2B2CE1A510FD90033E72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BA2B2CF1A510FD90033E72B /* Build configuration list for PBXNativeTarget "Super Mario WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA2B2D01A510FD90033E72B /* Debug */,
+				8BA2B2D11A510FD90033E72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BA2B5BE1A511A300033E72B /* Build configuration list for PBXNativeTarget "Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA2B5BF1A511A300033E72B /* Debug */,
+				8BA2B5C01A511A300033E72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BA2B5C21A511A300033E72B /* Build configuration list for PBXNativeTarget "EngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA2B5C31A511A300033E72B /* Debug */,
+				8BA2B5C41A511A300033E72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BA2B2A71A510FD90033E72B /* Project object */;
+}

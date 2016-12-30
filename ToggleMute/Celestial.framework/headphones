@@ -1,0 +1,152 @@
+2015-11-22 17:02:47.140 ToggleMute[397:21700] Audio/Video
+2015-11-22 17:02:47.141 ToggleMute[397:21700] (
+        {
+        AVAudioRouteName = Headphone;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 233;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteCurrentlyPicked = 1;
+        RouteName = Headphones;
+        RouteSubtype = Hdft;
+        RouteSupportsAudio = 1;
+        RouteType = Default;
+        RouteUID = "Wired Headphones";
+    }
+)
+2015-11-22 17:02:47.141 ToggleMute[397:21700] 0.500000
+
+
+2015-11-22 17:02:47.142 ToggleMute[397:21700] LiveAudio
+2015-11-22 17:02:47.142 ToggleMute[397:21700] (
+        {
+        AVAudioRouteName = Headphone;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 233;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteCurrentlyPicked = 1;
+        RouteName = Headphones;
+        RouteSubtype = Hdft;
+        RouteSupportsAudio = 1;
+        RouteType = Default;
+        RouteUID = "Wired Headphones";
+    }
+)
+2015-11-22 17:02:47.143 ToggleMute[397:21700] 0.500000
+
+
+2015-11-22 17:02:47.143 ToggleMute[397:21700] UserInterfaceSoundEffects
+2015-11-22 17:02:47.144 ToggleMute[397:21700] (
+        {
+        AVAudioRouteName = Headphone;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 233;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteCurrentlyPicked = 1;
+        RouteName = Headphones;
+        RouteSubtype = Hdft;
+        RouteSupportsAudio = 1;
+        RouteType = Default;
+        RouteUID = "Wired Headphones";
+    }
+)
+2015-11-22 17:02:47.144 ToggleMute[397:21700] 0.500000
+
+
+2015-11-22 17:02:47.144 ToggleMute[397:21700] PhoneCall
+2015-11-22 17:02:47.144 ToggleMute[397:21700] (
+        {
+        AVAudioRouteName = Headphone;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 233;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteCurrentlyPicked = 1;
+        RouteName = Headphones;
+        RouteSubtype = Hdft;
+        RouteSupportsAudio = 1;
+        RouteType = Default;
+        RouteUID = "Wired Headphones";
+    },
+        {
+        AVAudioRouteName = Speaker;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 133;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteName = Speaker;
+        RouteSupportsAudio = 1;
+        RouteType = Override;
+        RouteUID = Speaker;
+    }
+)
+2015-11-22 17:02:47.145 ToggleMute[397:21700] 0.250000
+
+
+2015-11-22 17:02:47.145 ToggleMute[397:21700] Ringtone
+2015-11-22 17:02:47.146 ToggleMute[397:21700] (
+        {
+        AVAudioRouteName = Headphone;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 233;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteCurrentlyPicked = 1;
+        RouteName = Headphones;
+        RouteSubtype = Hdft;
+        RouteSupportsAudio = 1;
+        RouteType = Default;
+        RouteUID = "Wired Headphones";
+    }
+)
+2015-11-22 17:02:47.146 ToggleMute[397:21700] 0.500000
+
+
+2015-11-22 17:02:47.146 ToggleMute[397:21700] RingtonePreview
+2015-11-22 17:02:47.147 ToggleMute[397:21700] (
+        {
+        AVAudioRouteName = Headphone;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 233;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteCurrentlyPicked = 1;
+        RouteName = Headphones;
+        RouteSubtype = Hdft;
+        RouteSupportsAudio = 1;
+        RouteType = Default;
+        RouteUID = "Wired Headphones";
+    }
+)
+2015-11-22 17:02:47.147 ToggleMute[397:21700] 0.500000
+
+
+2015-11-22 17:02:47.147 ToggleMute[397:21700] TTYCall
+2015-11-22 17:02:47.148 ToggleMute[397:21700] (
+        {
+        AVAudioRouteName = TTY;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 231;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteCurrentlyPicked = 1;
+        RouteName = TTY;
+        RouteSupportsAudio = 1;
+        RouteType = Default;
+        RouteUID = "TTY Output";
+    },
+        {
+        AVAudioRouteName = Speaker;
+        IsPreferredExternalRoute = 0;
+        MirroringMode = "MirroringMode_None";
+        PortNumber = 133;
+        "PreferredExternalRouteDetails_IsActive" = 0;
+        RouteName = Speaker;
+        RouteSupportsAudio = 1;
+        RouteType = Override;
+        RouteUID = Speaker;
+    }
+)
+2015-11-22 17:02:47.149 ToggleMute[397:21700] 1.000000
